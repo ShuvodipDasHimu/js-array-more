@@ -19,7 +19,7 @@ for(let i = 0; i < numbers.length; i++){
   reversed_numbers.unshift(num);
 }
 
-// reverse side
+// decremental for loop
 const rev_rev_numbers = [];
 for(let i = numbers.length - 1; i >= 0; i--){
   const num = numbers[i];
@@ -30,4 +30,4 @@ for(let i = numbers.length - 1; i >= 0; i--){
 
 let friends = ['Tony Stark', 'Elon Musk', 'Leonardo da Vinci', 'Nikola Tesla'];
 let reversedFriends = friends.reverse();
-console.log(reversedFriends);
+// console.log(reversedFriends);
